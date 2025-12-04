@@ -5,7 +5,7 @@ import DarkLogo from "../assets/dark svg.svg"
 const Footer = () => {
     return (
         <footer className="bg-yellow-400 pt-10">
-            <div className="max-w-7xl mx-auto px-4">
+            <div className="max-w-7xl mx-auto px-2 sm:px-2 md:px-6 lg:px-2">
                 <div className="grid md:grid-cols-5 gap-8">
                     {/* Left Column - Logo and Contact */}
                     <div className="space-y-4">

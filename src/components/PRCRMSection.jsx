@@ -3,7 +3,7 @@ import React from 'react'
 const PRCRMSection = () => {
     return (
         <section className="bg-white py-16 lg:py-20">
-            <div className="max-w-7xl mx-auto px-4">
+            <div className="max-w-7xl mx-auto px-2 sm:px-2 md:px-6 lg:px-2">
                 <div className="grid lg:grid-cols-2 gap-8">
                     <div className="bg-white rounded-lg p-8 shadow-sm border-t-8 border-[#FFE03E]">
                         <div className=" text-[#F2B927] fs-15  font-bold tracking-[0.19em] mb-6">

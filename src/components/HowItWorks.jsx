@@ -5,7 +5,7 @@ import { ArrowUp } from 'lucide-react'
 const HowItWorks = () => {
     return (
         <section className="bg-gray-50 py-16 lg:py-20">
-            <div className="max-w-7xl mx-auto px-4">
+            <div className="max-w-7xl mx-auto px-2 sm:px-2 md:px-6 lg:px-2">
                 <div className="grid lg:grid-cols-2 gap-12 items-start">
                     {/* Left Content */}
                     <div className="space-y-6">
@@ -53,7 +53,9 @@ const HowItWorks = () => {
 
                     {/* Right Content Text */}
                     <div className="lg:col-start-2 space-y-4 light-gray-text font-normal leading-relaxed">
-                        <img src={ExploringMan} alt="" />
+                        <div className="flex justify-center lg:justify-start">
+                            <img src={ExploringMan} alt="" />
+                        </div>
                         <p>
                             The PR-CRM prioritizes calls in many ways but what really makes it amazing when it's used with ProspectRoute. This is because when PR generates leads the PR-CRM immediately connects your producer with the prospect by phone when it comes in. This means it's the fastest way to get prospects on the phone. For each minute that passes from when a prospect expresses interest and a producer makes their first contact attempt, the likelihood of a sale decreases by 50%. Using PR with the PR-CRM.
                         </p>
