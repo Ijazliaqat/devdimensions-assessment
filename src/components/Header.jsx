@@ -52,44 +52,56 @@ const Header = () => {
 
           {/* Mobile menu button */}
           <div className="md:hidden">
-            <button
-              onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-              className="text-white hover:text-yellow-400"
-            >
-              <svg className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                {mobileMenuOpen ? (
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
-                ) : (
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
-                )}
-              </svg>
-            </button>
+
+            <div className="flex items-center space-x-6">
+              <div className='flex gap-5'>
+                <button className="text-sm border border-[#F8D12E] text-[#0B2540] text-[15px] font-medium hover:text-yellow-400 px-6 py-2 rounded-md transition">
+                  Login
+                </button>
+                <button className="bg-yellow-400 text-[#0B2540] text-[15px] font-medium px-6 py-2 rounded-md hover:bg-yellow-500 hover:text-white transition">
+                  Signup
+                </button>
+              </div>
+
+              <button
+                onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
+                className="text-primary hover:text-yellow-400"
+              >
+                <svg className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  {mobileMenuOpen ? (
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+                  ) : (
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
+                  )}
+                </svg>
+              </button>
+              </div>
           </div>
         </div>
 
         {/* Mobile Menu */}
         {mobileMenuOpen && (
           <div className="md:hidden pb-4 space-y-3">
-            <a href="#how-it-works" className="block text-sm hover:text-yellow-400 transition">
+            <a href="#how-it-works" className="block text-primary text-sm hover:text-yellow-400 transition">
               How it works
             </a>
-            <a href="#pr-crm" className="block text-sm hover:text-yellow-400 transition">
+            <a href="#pr-crm" className="block text-primary text-sm hover:text-yellow-400 transition">
               PR-CRM
             </a>
-            <a href="#our-leads" className="block text-sm hover:text-yellow-400 transition">
+            <a href="#our-leads" className="block text-primary text-sm hover:text-yellow-400 transition">
               Our leads
             </a>
-            <a href="#pricing" className="block text-sm hover:text-yellow-400 transition">
+            <a href="#pricing" className="block text-primary text-sm hover:text-yellow-400 transition">
               Pricing
             </a>
-            <div className="pt-3 border-t border-white/20">
-              <button className="block w-full text-left text-sm mb-2">
-                {'login'}
+            {/* <div className="pt-3 border-t border-white/20">
+              <button className="block w-full text-primary text-left text-sm mb-2">
+                Login
               </button>
               <button className="w-full bg-yellow-400 text-black px-6 py-2 rounded-md font-semibold">
-                {'getStarted'}
+                Signup
               </button>
-            </div>
+            </div> */}
           </div>
         )}
       </div>

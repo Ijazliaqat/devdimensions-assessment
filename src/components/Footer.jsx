@@ -5,16 +5,13 @@ import DarkLogo from "../assets/dark svg.svg"
 const Footer = () => {
     return (
         <footer className="bg-yellow-400 pt-10">
-            <div className="max-w-7xl mx-auto px-2 sm:px-2 md:px-6 lg:px-2">
+            <div className="max-w-6xl mx-auto px-2 sm:px-2 md:px-6 lg:px-2">
                 <div className="grid md:grid-cols-5 gap-8">
-                    {/* Left Column - Logo and Contact */}
-                    <div className="space-y-4">
-                        {/* Logo */}
+                    <div className="space-y-3">
                         <div className="flex items-center mb-6">
                             <img src={DarkLogo} alt="Company Logo" className="h-22" />
                         </div>
 
-                        {/* Contact Info */}
                         <div className="space-y-2 text-black text-sm">
                             <div className="flex text-[16px] font-medium items-center">
                                 <svg className="w-4 h-4 mr-2" fill="currentColor" viewBox="0 0 20 20">
@@ -65,7 +62,7 @@ const Footer = () => {
                 </div>
 
                 {/* Bottom Section */}
-                <div className="py-6 border-t border-black/10 text-center ">
+                <div className="py-2 border-t border-black/10 text-center ">
                     <div className="text-black text-base md:mb-0">
                         © Company 2021 All Rights Reserved.
                     </div>
