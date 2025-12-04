@@ -3,21 +3,21 @@ import EmployeeImage from "../assets/lady-employee.svg"
 
 const Hero = () => {
     return (
-        <section className="bg-yellow-400 py-16 lg:py-20">
+        <section className="bg-secondary py-16 lg:py-20">
             <div className="max-w-7xl mx-auto px-4">
-                <div className="grid lg:grid-cols-2 gap-12 items-center">
+                <div className="grid lg:grid-cols-2 gap-12">
                     {/* Left Content */}
-                    <div className="space-y-6">
-                        <div className="text-sm font-semibold text-gray-700 uppercase tracking-wider">
+                    <div className="space-y-10">
+                        <div className="fs-15 font-bold text-primary tracking-[0.19em]">
                             PROSPECTROUTE
                         </div>
 
-                        <h1 className="text-4xl lg:text-5xl font-bold text-gray-900 leading-tight">
+                        <h1 className="fs-50 lg:text-5xl font-bold text-primary">
                             High volume, pristine,{' '}
                             <span className="block">exclusive leads.</span>
                         </h1>
 
-                        <p className="text-lg text-gray-700 max-w-md">
+                        <p className="fs-20 text-primary font-normal">
                             Up to 50 web leads per day, exclusive and high quality.
                         </p>
 
@@ -30,17 +30,14 @@ const Hero = () => {
 
                     {/* Right Content - Form */}
                     <div className="bg-[#ffffff70] shadow-[0px_4px_11px_0px_#657A8B1A] p-6 rounded-lg w-full max-w-lg lg:max-w-[497px] ml-auto lg:ml-auto" >
-                        <div className="bg-white rounded-lg shadow-lg p-8 w-full max-w-lg lg:max-w-[497px] ml-auto lg:ml-auto flex flex-col justify-between">
-                            <h2 className="text-xl font-semibold text-gray-900 mb-2">
-                                Want to see pricing?
+                        <div className="bg-white rounded-lg shadow-lg p-8 h-full w-full max-w-lg lg:max-w-[497px] ml-auto lg:ml-auto flex flex-col justify-between">
+                            <h2 className="fs-28 font-semibold text-primary mb-2">
+                                Want to see pricing? <br /> We'll email it!
                             </h2>
-                            <p className="text-gray-600 mb-6">
-                                We'll email it!
-                            </p>
 
                             <form className="space-y-4">
                                 <div>
-                                    <label htmlFor="firstName" className="block text-sm font-medium text-gray-700 mb-1">
+                                    <label htmlFor="firstName" className="block text-sm font-semibold text-primary mb-1">
                                         First name
                                     </label>
                                     <input
@@ -53,7 +50,7 @@ const Hero = () => {
                                 </div>
 
                                 <div>
-                                    <label htmlFor="email" className="block text-sm font-medium text-gray-700 mb-1">
+                                    <label htmlFor="email" className="block text-sm font-semibold text-primary mb-1">
                                         Email
                                     </label>
                                     <input
@@ -66,7 +63,7 @@ const Hero = () => {
                                 </div>
 
                                 <div>
-                                    <label htmlFor="phone" className="block text-sm font-medium text-gray-700 mb-1">
+                                    <label htmlFor="phone" className="block text-sm font-semibold text-primary mb-1">
                                         Mobile (used as password)
                                     </label>
                                     <input
@@ -79,7 +76,7 @@ const Hero = () => {
                                 </div>
 
                                 <div>
-                                    <label htmlFor="agency" className="block text-sm font-medium text-gray-700 mb-1">
+                                    <label htmlFor="agency" className="block text-sm font-semibold text-primary mb-1">
                                         Agency workspace
                                     </label>
                                     <select
@@ -96,7 +93,7 @@ const Hero = () => {
 
                                 <button
                                     type="submit"
-                                    className="w-full bg-slate-800 text-white py-3 px-4 rounded-md font-semibold hover:bg-slate-700 transition-colors mt-6"
+                                    className="w-full bg-primary cursor-pointer text-white py-3 px-4 rounded-md font-semibold hover:bg-primary transition-colors mt-6"
                                 >
                                     Send pricing!
                                 </button>

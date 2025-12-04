@@ -1,5 +1,6 @@
 import React from 'react'
 import ExploringMan from "../assets/man-exploring.svg"
+import { ArrowUp } from 'lucide-react'
 
 const HowItWorks = () => {
     return (
@@ -8,15 +9,15 @@ const HowItWorks = () => {
                 <div className="grid lg:grid-cols-2 gap-12 items-start">
                     {/* Left Content */}
                     <div className="space-y-6">
-                        <div className="text-yellow-500 text-sm font-semibold uppercase tracking-wider">
+                        <div className="text-secondary fs-15 font-bold tracking-[0.19em]">
                             HOW IT WORKS
                         </div>
 
-                        <h2 className="text-3xl lg:text-4xl font-bold text-gray-900 leading-tight">
+                        <h2 className="fs-38 lg:fs-38 font-bold dark-text-primary">
                             Hand-curated Auto/Home Leads - Delivered to you digitally, exclusively.
                         </h2>
 
-                        <div className="space-y-4 text-gray-600 leading-relaxed">
+                        <div className="space-y-4 light-gray-text font-normal leading-relaxed">
                             <p>
                                 Most lead vendors fall into one of two categories: they either have high quality at an expensive low volume, or high volume and low quality. ProspectRoute has spent hundreds of thousands of dollars to develop the next generation in insurance marketing: a high volume system that delivers prospects that close.
                             </p>
@@ -40,20 +41,18 @@ const HowItWorks = () => {
 
                         {/* Action buttons */}
                         <div className="flex flex-wrap gap-4 pt-4">
-                            <button className="flex items-center px-6 py-3 bg-white border border-gray-300 rounded-md text-gray-700 font-medium hover:bg-gray-50 transition-colors">
+                            <button className="flex items-center justify-between fs-15 font-semibold px-3 py-3 bg-white border border-[#F8D12E] rounded-md text-primary hover:bg-gray-50 transition-colors">
                                 <span>Click to read less</span>
-                                <svg className="ml-2 w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 15l7-7 7 7" />
-                                </svg>
+                                <ArrowUp className='ms-3' />
                             </button>
-                            <button className="px-6 py-3 bg-yellow-400 text-gray-900 font-semibold rounded-md hover:bg-yellow-300 transition-colors">
+                            <button className="px-6 py-3 bg-[#F8D12E] text-primary font-semibold rounded-md hover:bg-yellow-300 transition-colors">
                                 Get pricing
                             </button>
                         </div>
                     </div>
 
                     {/* Right Content Text */}
-                    <div className="lg:col-start-2 space-y-4 text-gray-600 leading-relaxed">
+                    <div className="lg:col-start-2 space-y-4 light-gray-text font-normal leading-relaxed">
                         <img src={ExploringMan} alt="" />
                         <p>
                             The PR-CRM prioritizes calls in many ways but what really makes it amazing when it's used with ProspectRoute. This is because when PR generates leads the PR-CRM immediately connects your producer with the prospect by phone when it comes in. This means it's the fastest way to get prospects on the phone. For each minute that passes from when a prospect expresses interest and a producer makes their first contact attempt, the likelihood of a sale decreases by 50%. Using PR with the PR-CRM.

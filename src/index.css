@@ -1,1 +1,56 @@
 @import "tailwindcss";
+@import url("https://fonts.cdnfonts.com/css/basier");
+
+:root {
+  --primary-color: #0b2540;
+  --secondary-color: #f2b927;
+  --background-color: #ffe03e;
+  --text-color: #07192c;
+  --text-secondary-color: #6485a8;
+}
+
+* {
+  font-family: "Basier Circle", sans-serif;
+}
+
+/* font size */
+.fs-15 {
+  font-size: 15px !important;
+}
+.fs-20 {
+  font-size: 20px !important;
+}
+.fs-28 {
+  font-size: 28px !important;
+}
+.fs-38 {
+  font-size: 38px !important;
+}
+.fs-50 {
+  font-size: 50px !important;
+}
+
+/* text colors */
+
+.text-primary {
+  color: var(--primary-color);
+}
+.text-secondary {
+  color: var(--secondary-color);
+}
+.dark-text-primary {
+  color: var(--text-color) !important;
+}
+
+.light-gray-text {
+  color: var(--text-secondary-color) !important;
+}
+
+/* background colors */
+
+.bg-primary {
+  background-color: var(--primary-color);
+}
+.bg-secondary {
+  background-color: var(--background-color);
+}

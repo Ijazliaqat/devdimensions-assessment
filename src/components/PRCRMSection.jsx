@@ -6,15 +6,15 @@ const PRCRMSection = () => {
             <div className="max-w-7xl mx-auto px-4">
                 <div className="grid lg:grid-cols-2 gap-8">
                     <div className="bg-white rounded-lg p-8 shadow-sm border-t-8 border-[#FFE03E]">
-                        <div className="bg-yellow-400 text-gray-900 text-xs font-semibold uppercase tracking-wider px-3 py-1 rounded-sm inline-block mb-6">
+                        <div className=" text-[#F2B927] fs-15  font-bold tracking-[0.19em] mb-6">
                             THE PR-CRM
                         </div>
 
-                        <h3 className="text-2xl lg:text-3xl font-bold text-gray-900 leading-tight mb-6">
+                        <h3 className="text-4xl lg:text-3xl font-bold dark-text-primary mb-6">
                             Get double the return on your marketing dollars. Best of all, the PR-CRM is free.
                         </h3>
 
-                        <div className="space-y-4 text-gray-600 text-sm leading-relaxed">
+                        <div className="space-y-4 light-gray-text font-normal leading-relaxed">
                             <p>
                                 The ProspectRoute CRM is a very robust and effective tool created specifically and exclusively for insurance agents. PR-CRM automates and prioritizes calls, leads, emails, and SMS. It can be easily configured to run your entire agency, just a part of it, or to only work with ProspectRoute leads.
                             </p>
@@ -23,7 +23,7 @@ const PRCRMSection = () => {
                                 However, we're positive that once you start using it, you'll decide to use it for leads from your agency and all your lead vendors.
                             </p>
 
-                            <p className="font-semibold text-gray-800">
+                            <p className="font-normal">
                                 What makes PR-CRM so good?
                             </p>
 
@@ -39,7 +39,7 @@ const PRCRMSection = () => {
                                 If you want to limit PR-CRM's role in your agency that works too. PR-CRM can be used by just a few producers or can be used as a communications free system that just organizes your leads and tells your producers who should be called next.
                             </p>
 
-                            <p className="font-semibold text-gray-800">
+                            <p className="font-normal">
                                 Worried about phone system stuff?
                             </p>
 
@@ -47,7 +47,7 @@ const PRCRMSection = () => {
                                 If you're in a situation where you can't have PR-CRM make its own phone calls then don't worry. PR-CRM can integrate with your existing phone system. Call 0 (zero) for call distribution or configuration help. PR-CRM also has a robust built-in phone system for inbound and outbound calls through your existing phone system regardless of who the provider is. Remember, PR-CRM is still pretty effective without any communication abilities.
                             </p>
 
-                            <p className="font-semibold text-gray-800">
+                            <p className="font-normal">
                                 The best part is it's FREE.
                             </p>
 
@@ -73,15 +73,15 @@ const PRCRMSection = () => {
                     {/* Right Card - Our Leads */}
                     <div className="bg-white border-t-8 border-[#FFE03E] rounded-lg p-8 shadow-sm">
                         {/* Yellow header bar */}
-                        <div className="bg-yellow-400 text-gray-900 text-xs font-semibold uppercase tracking-wider px-3 py-1 rounded-sm inline-block mb-6">
+                        <div className=" text-[#F2B927] fs-15  font-bold tracking-[0.19em] mb-6">
                             OUR LEADS
                         </div>
 
-                        <h3 className="text-2xl lg:text-3xl font-bold text-gray-900 leading-tight mb-6">
+                        <h3 className="text-4xl lg:text-3xl font-bold dark-text-primary mb-6">
                             WARNING: Our leads may cause a sense of euphoria, relief, or satisfaction. Seek medical attention.
                         </h3>
 
-                        <div className="space-y-4 text-gray-600 text-sm leading-relaxed">
+                        <div className="space-y-4 light-gray-text font-normal leading-relaxed">
                             <p>
                                 ProspectRoute can deliver as many leads as you want per day. It has the ability to keep all of your producers busy all day long. They will go home tired, but satisfied their commissions are increasing.
                             </p>
