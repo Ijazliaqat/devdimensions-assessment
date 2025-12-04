@@ -7,7 +7,6 @@ const HowItWorks = () => {
         <section className="bg-gray-50 py-16 lg:py-20">
             <div className="max-w-7xl mx-auto px-2 sm:px-2 md:px-6 lg:px-2">
                 <div className="grid lg:grid-cols-2 gap-12 items-start">
-                    {/* Left Content */}
                     <div className="space-y-6">
                         <div className="text-secondary fs-15 font-bold tracking-[0.19em]">
                             HOW IT WORKS
@@ -39,7 +38,6 @@ const HowItWorks = () => {
                             </p>
                         </div>
 
-                        {/* Action buttons */}
                         <div className="flex flex-wrap gap-4 pt-4">
                             <button className="flex items-center justify-between fs-15 font-semibold px-3 py-3 bg-white border border-[#F8D12E] rounded-md text-primary hover:bg-gray-50 transition-colors">
                                 <span>Click to read less</span>
@@ -51,7 +49,6 @@ const HowItWorks = () => {
                         </div>
                     </div>
 
-                    {/* Right Content Text */}
                     <div className="lg:col-start-2 space-y-4 light-gray-text font-normal leading-relaxed">
                         <div className="flex justify-center lg:justify-start">
                             <img src={ExploringMan} alt="" />

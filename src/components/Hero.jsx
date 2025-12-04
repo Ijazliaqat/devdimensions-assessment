@@ -1,4 +1,3 @@
-import React from 'react'
 import EmployeeImage from "../assets/lady-employee.svg"
 
 const Hero = () => {
